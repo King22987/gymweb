@@ -1,0 +1,203 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+svg{
+    display:none;
+}
+
+#container{
+    height: 100vh;
+    width: 100%;
+    background: url('gymimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    opacity: 95%;
+}
+.heading{
+    margin: 0px;
+    position: absolute;
+    top: 44vmin;
+    color: white;
+    padding-inline: 17vmax;
+    text-align: center;
+    font-family: 'Popines', sans-serif;
+}
+.btn button{
+    margin: 3vmin;
+    margin-inline: 2vmin;
+    width: 9rem;
+}
+.btn{
+    margin: 0;
+}
+
+#container1{
+    height: 100vh;
+   width: 100%;
+    background:rgb(71, 134, 42);
+}
+#container2{
+    height: 100vh;
+   width: 100%;
+    background:blue;
+}
+#container3{
+    height: 100vh;
+   width: 100%;
+    background:rgb(136, 50, 83);
+}
+#container4{
+    height: 100vh;
+   width: 100%;
+    background:rgb(202, 189, 11);
+}
+nav{
+    background: #000000;
+    width: 100%;
+    justify-content: space-between;
+    height: 10vmin;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    opacity: 87%;
+    z-index: 1;
+    
+}
+
+ #logo{
+    background: url(Untitled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 1rem;
+    min-height: 7vmin;
+    min-width: 7vmin;
+    font-size: 14vmin;
+    border: 3px solid #099541;
+    border-radius: 50%;
+}
+#search{
+      padding: 1px;
+      margin-right: 3vmin;
+}
+
+.material-symbols-outlined {
+    display: none;
+    position: absolute;
+
+}
+input{
+    font-size: 3vmin;
+    border: 2px solid #099541;
+    border-radius: 2vmin;
+    padding: 2px;
+
+}
+button{
+    font-size: 3vmin;
+    background: #857604;
+    padding: 2px  11px;
+    color: white;
+    border: 2px solid #099541;
+    border-radius: 2vmin;
+    list-style: none;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+#sbtn {
+    font-size: 3vmin;
+    background: #857604;
+    padding: 2px 11px;
+    color: white;
+    border: 2px solid #099541;
+    border-radius: 2vmin;
+    cursor: pointer;
+}
+.signpage{
+    background: url('lifting.jpg');
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.signBox{
+    height: 80vmin;
+    width: 80vmin;
+    background: black;
+    opacity: 82%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#logo2{
+    background: url('Untitled.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 15vmin;
+    min-width: 15vmin;
+    margin-bottom: 6vmin;
+    border: 3px solid #099541;
+    border-radius: 50%;
+
+}
+.signBox form{
+    margin-bottom: 13vmin;
+}
+.signBox form label{
+    margin: 9px;
+    font-size: 3vmin;
+    color: #857604;
+}
+.signBox form input {
+    width: 47vmin;
+    height: 5vmin;
+    border: 2px solid #099541;
+    border-radius: 3vmin;
+    margin: 3px;
+    display: flex;
+}
+#sibtn{
+    margin-left: 16vmin;
+}
+@media (max-width:500px){
+      .heading{
+        padding-inline: 17vmin;
+        top: 36vmax;
+      }
+      .btn button{
+          width: 18vmax;
+      }
+      #sbtn{
+          display: none;
+      }
+      input{
+       display: none;
+      }
+      .material-symbols-outlined {
+        display: block;
+        color: white;
+        margin: 0vmin 3vmin 0vmin -29vmin;
+        background: #857604;
+        border-radius: 50%;
+        border: 2px solid #099541;
+       
+       }
+     
+}
+@media(max-width:530px) {
+        .signBox{
+            width: 100vw;
+            height: 100vh;
+        }
+ }
